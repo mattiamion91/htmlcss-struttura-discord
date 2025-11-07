@@ -6,6 +6,19 @@
 
 /*utility*/
 
+a {
+  text-decoration: none;
+}
+
+
+.bg-footer {
+background-color: rgb(35, 39, 42);
+}
+
+.bt-bg {
+    background-color: salmon;
+}
+
 .grey {
     background-color: lightgray
 }
@@ -27,6 +40,11 @@ ul li {
     border: 2px dotted black
 }
 
+.border2 {
+    border: 2px dotted white
+}
+
+
 /*navbar*/
 
 .navbar-container {
@@ -44,8 +62,9 @@ ul li {
     background-color: orange;
 }
 
-.navbar-logo, .navbar-login {
-    height: 30px;
+.navbar-logo,
+.navbar-login {
+    height: 25px;
     flex-basis: calc((100% /12)*2)
 }
 
@@ -54,6 +73,9 @@ ul li {
     text-align: center;
 }
 
+.navbar-login {
+    text-align: right;
+}
 /*hero-section*/
 
 .hero-section-container {
@@ -76,7 +98,7 @@ ul li {
 }
 
 .section-content-blu {
-    background-color: blue;
+    background-color: skyblue;
     flex-basis: 60%;
     height: 300px;
 }
@@ -101,7 +123,6 @@ ul li {
 /*footer*/
 
 .up-section {
-    background-color: darkgray;
     padding: 5px 200px;
     display: flex;
 }
@@ -117,4 +138,18 @@ ul li {
     height: 400px;
     flex-basis: calc((100% / 12) * 2);
     flex-grow: 1;
+}
+
+.down-section {
+    padding: 10px 200px;
+    margin-top: 1px;
+}
+
+.button-item {
+    display: flex;
+    margin: 5px;
+    background-color: lightgreen;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

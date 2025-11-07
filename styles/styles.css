@@ -4,16 +4,27 @@
     box-sizing: border-box;
 }
 
-/*border*/
-.border {
-    border: 2px dotted black
+/*utility*/
+
+.grey {
+    background-color: grey;
 }
 
-/*utility*/
+.white {
+    background-color: white;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
 
 ul li {
     list-style-type: none;
     display: inline;
+}
+
+.border {
+    border: 2px dotted black
 }
 
 /*navbar*/
@@ -37,19 +48,18 @@ ul li {
 
 .hero-section-container {
     background-color: rgb(0, 0, 139);
-    padding: 30px 200px;
+    padding: 30px 300px;
 }
 
 .hero-section-content {
-    height: 200px;
+    height: 250px;
     background-color: rgb(238, 130, 238);
 }
 
 /*main-section*/
 
 .section-container {
-    background-color: grey;
-    padding: 20px 300px;
+    padding: 20px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +67,23 @@ ul li {
 
 .section-content-blu {
     background-color: blue;
-    height: 90%;
-    width: 90%;
+    flex-basis: 60%;
+    height: 300px;
 }
+
+.section-content-pink {
+    background-color: pink;
+    flex-basis: 40%;
+    height: 300px;
+}
+
+/*green section*/
+
+.green-section-container {
+    padding: 30px 200px;
+}
+
+.green-section-contain {
+    height: 500px;
+    background-color: green;
+    }

@@ -7,7 +7,7 @@
 /*utility*/
 
 .grey {
-    background-color: grey;
+    background-color: lightgray
 }
 
 .white {
@@ -34,7 +34,7 @@ ul li {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 200px;
 
 }
 
@@ -42,6 +42,16 @@ ul li {
 .navbar-links,
 .navbar-login {
     background-color: orange;
+}
+
+.navbar-logo, .navbar-login {
+    height: 30px;
+    flex-basis: calc((100% /12)*2)
+}
+
+.navbar-links {
+    flex-grow: 1;
+    text-align: center;
 }
 
 /*hero-section*/
@@ -86,4 +96,25 @@ ul li {
 .green-section-contain {
     height: 500px;
     background-color: green;
-    }
+}
+
+/*footer*/
+
+.up-section {
+    background-color: darkgray;
+    padding: 5px 200px;
+    display: flex;
+}
+
+.salmon-item {
+    background-color: salmon;
+    height: 400px;
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.green-item {
+    background-color: lightseagreen;
+    height: 400px;
+    flex-basis: calc((100% / 12) * 2);
+    flex-grow: 1;
+}
